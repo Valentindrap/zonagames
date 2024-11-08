@@ -7,7 +7,7 @@
 
 .ContenedorNavbar{
     background-color: rgb(255, 255, 255);
-    height: 80px;
+    height: 50px;
     display: flex;
     justify-content: space-between;
     box-shadow: 2px 2px 4px 8px rgba(0, 0, 0, 0.158);
@@ -27,17 +27,18 @@
     height: 100%;
     width: 100%;
     text-align: end;
-    padding: 15px 20px 0 0;
+    padding: 5px 20px 0 0;
 }
 
 .imagenlogo{
-    padding: 10px 0px 0 0;
+    padding: 5px 0px 0 0;
     height: 80%;
 }
 
 .User-circle{
-    font-size: 45px;
+    font-size: 35px;
     cursor: pointer;
+    color: black;
 }
 
 /*busqueda*/
