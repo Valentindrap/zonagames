@@ -6,6 +6,11 @@ import PestañaJuegos from './componentes/PestañaJuegos';
 import Perfil from './componentes/perfil';
 
 function App() {
+  function alerta() {
+    alert('La pagina funciona entera pero, la base de datos para el registro se encuentra desactivada, para redurcir costos al mantener el proyecto en linea');
+  }
+
+  alerta();
   return(
     <div className='app'>
 
