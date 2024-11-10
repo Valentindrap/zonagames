@@ -6,7 +6,7 @@
 .CargaLogin-container{
     display: flex;
     background-color: white;
-    height: 679px;
+    height: 100vh;
 }
 
 .Icon-black{

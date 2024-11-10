@@ -102,7 +102,7 @@ iframe {
 
 .descripcion-abajo {
     position: absolute;
-    margin-top: 150px;
+    margin-top: 185px;
 }
 
 .Abajo-PestañaJuegos p {
@@ -285,4 +285,83 @@ iframe {
     .IzqNombre-PestañaJuegos, .DerNombre-PestañaJuegos {
         font-size: 1.2rem; /* Ajustar tamaño de fuente */
     }
+}
+/* Ajustes para pantallas grandes (1920x1080) */
+@media (min-width: 1500px) {
+    .PestañaJuegos-container {
+        max-width: 1400px; /* Ancho máximo para pantallas grandes */
+    }
+
+    .Nombre-PestañaJuegos {
+        max-width: 1200px;
+        height: 250px; /* Ajuste de altura */
+        padding: 20px;
+        font-size: 1.8rem; /* Ajustar tamaño de fuente */
+    }
+
+    iframe {
+        height: 700px; /* Altura ajustada para iframes */
+    }
+
+    .fullscreen-btn {
+        font-size: 24px; /* Aumentar el tamaño del botón fullscreen */
+        margin-top: 660px;
+        margin-left: 900px;
+    }
+
+    .catalogo-juegos ul {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr)); /* Más columnas para pantallas grandes */
+        gap: 25px;
+    }
+
+    .catalogo-juegos li {
+        padding: 20px;
+        font-size: 1.3rem;
+        box-shadow: 0 6px 8px rgba(29, 12, 27, 0.3);
+    }
+
+    .info {
+        margin-left: 420px; /* Ajustar márgenes */
+        margin-top: 50px;
+        font-size: 1.7rem;
+    }
+
+    .info-abajo {
+        font-size: 1.2rem;
+        margin-left: 420px;
+    }
+
+    .footer-content {
+        max-width: 1400px;
+    }
+}
+
+/* Ajustes generales para aprovechar mejor el espacio */
+.pagina-juego {
+    padding: 20px; /* Agregar padding para mayor separación */
+}
+
+.anuncio {
+    max-width: 1200px; /* Limitar ancho en pantallas grandes */
+    margin: 20px auto;
+}
+
+.MedPestañaJuegos-container {
+    max-width: 1400px;
+}
+
+.descripcion {
+    margin-top: 160px; /* Ajuste para pantallas grandes */
+}
+
+.footer {
+    padding: 30px 0;
+}
+
+.footer-links {
+    margin-left: 700px;
+}
+
+.footer-links a {
+    font-size: 1.1rem;
 }
