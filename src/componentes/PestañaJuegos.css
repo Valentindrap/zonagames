@@ -1,0 +1,324 @@
+/* PJ-PestañaJuegos.css */
+.PJ-pagina-juego {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px; /* Agregar padding para mayor separación */
+}
+
+.PJ-anuncio {
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #333;
+    max-width: 1200px;
+    margin: 20px auto;
+}
+
+.PJ-btn-secondary {
+    background-color: transparent;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.PJ-bi-arrow-left-circle {
+    background-color: transparent;
+    color: white;
+    font-size: 40px;
+    cursor: pointer;
+}
+
+.PJ-PestañaJuegos-container {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    background-color: transparent;
+    width: 100%;
+    max-width: 1000px;
+    margin-right: 48px;
+}
+
+.PJ-MedPestañaJuegos-container {
+    padding: 0;
+    background-color: transparent;
+    overflow: hidden;
+}
+
+iframe {
+    width: 100%;
+    height: 600px;
+    border-radius: 20px;
+    border: none;
+    transition: transform 0.3s ease;
+}
+
+.PJ-Nombre-PestañaJuegos {
+    width: 97%;
+    height: 200px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #ffffff;
+    padding: 15px;
+    border-radius: 20px;
+    margin-top: 10px;
+    box-shadow: 0 4px 20px rgba(29, 12, 27, 0.411);
+}
+
+.PJ-IzqNombre-PestañaJuegos {
+    color: black;
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+
+.PJ-DerNombre-PestañaJuegos {
+    margin-top: 5px;
+    color: black;
+    font-size: 1.5rem;
+}
+
+.PJ-calificacion {
+    margin-top: 20px;
+    font-size: 1rem;
+}
+
+.PJ-descripcion {
+    position: absolute;
+    margin-top: 120px;
+    background-color: #ffffff;
+    border-radius: 20px;
+}
+
+.PJ-descripcion-abajo {
+    position: absolute;
+    margin-top: 185px;
+}
+
+.PJ-fullscreen-btn {
+    background-color: transparent;
+    color: rgb(100, 96, 96);
+    border: none;
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    margin-top: 560px;
+    margin-left: 790px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+.PJ-fullscreen-btn:hover {
+    transform: scale(1.05);
+}
+
+.PJ-fullscreen-btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+/* Fullscreen adjustments */
+:fullscreen iframe {
+    height: 100%;
+}
+
+/* Estilos para el botón de favoritos */
+.PJ-btn-favoritos {
+    background-color: #ff4081;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+    max-width: 200px;
+    margin: 10px auto;
+}
+
+.PJ-btn-favoritos:hover {
+    background-color: #e91e63;
+}
+
+/* Estilos del footer */
+
+/* PJ-PestañaJuegos.css */
+
+/* Estilos del footer */
+.PJ-footer {
+    background-color: white;
+    color: black;
+    padding: 20px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.PJ-footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.PJ-logo {
+    width: 150px; /* Ajusta el tamaño del logo */
+    margin-bottom: 20px; /* Añadido para que haya espacio debajo del logo */
+}
+
+.PJ-footer-text {
+    font-size: 1.5rem;
+    color: black;
+    text-align: center; /* Alineado al centro */
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.PJ-footer-links {
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.PJ-footer-links a {
+    color: black;
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.PJ-footer-links a:hover {
+    text-decoration: underline;
+}
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    .PJ-footer-text {
+        font-size: 1.2rem;
+        margin-left: 20px;
+    }
+
+    .PJ-footer-links a {
+        font-size: 12px;
+        margin: 0 10px;
+    }
+
+    .PJ-footer-content {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+
+
+/* Responsive adjustments */
+@media (max-width: 600px) {
+    iframe {
+        height: 400px;
+    }
+
+    .PJ-Nombre-PestañaJuegos {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .PJ-IzqNombre-PestañaJuegos,
+    .PJ-DerNombre-PestañaJuegos {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1500px) {
+    .PJ-PestañaJuegos-container {
+        max-width: 1400px;
+    }
+
+    .PJ-Nombre-PestañaJuegos {
+        max-width: 1200px;
+        height: 250px;
+        padding: 20px;
+        font-size: 1.8rem;
+    }
+
+    iframe {
+        height: 700px;
+    }
+
+    .PJ-fullscreen-btn {
+        font-size: 24px;
+        margin-top: 660px;
+        margin-left: 900px;
+    }
+
+    .PJ-catalogo-juegos ul {
+        grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+        gap: 25px;
+    }
+
+    .PJ-catalogo-juegos li {
+        padding: 20px;
+        font-size: 1.3rem;
+        box-shadow: 0 6px 8px rgba(29, 12, 27, 0.3);
+    }
+
+    .PJ-footer-content {
+        max-width: 1400px;
+    }
+}
+
+.PJ-anuncio {
+    width: 150px;
+    height: auto;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+    padding: 30px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.2rem;
+    color: #333;
+    background-image: url("../img/anuncio.jpg");
+    background-size: contain;
+    background-repeat: repeat;
+    margin: 10px; /* Agregar margen para que no se peguen entre sí */
+}
+
+.PJ-contenedor-anuncios{
+    display: flex;
+    height: auto;
+    justify-content: space-between;
+    margin: 20px auto;
+    flex-wrap: wrap; /* Permite que los anuncios se envuelvan en pantallas pequeñas */
+}
+
+.PJ-back-btn-container {
+    margin-top: 20px;
+}
+
+.PJ-back-btn-container .btn-secondary {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.PJ-back-btn-container .bi-arrow-left-circle {
+    color: white;
+    font-size: 40px;
+}
