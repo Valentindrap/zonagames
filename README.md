@@ -24,4 +24,4 @@ Normalmente esta se encuentra en "C:\xampp\htdocs"
 
 Luego en en phpmyadmin crear una base de datos llamada "base_zonagames" y en el apartado de sql poner el codigo para generar las tablas, dicho codigo tambien se encuentra en "src/API"
 
-#[URL](https://zonagamestester.onrender.com/)
+#[URL](https://zonagames.onrender.com/)
